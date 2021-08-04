@@ -1,11 +1,12 @@
-var running = true;
+const objeto = {
+  running: true,
+};
 
-function run() {
-  if (running) {
-    return;
-  }
+function retornarObjeto() {
+  return objeto;
 }
 
-console.log(running);
-
-module.exports = run;
+module.exports = {
+  objeto,
+  retornarObjeto,
+};

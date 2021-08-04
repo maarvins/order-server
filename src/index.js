@@ -1,3 +1,3 @@
-const runImportada = require("./status.js");
+const importada = require('./status')
 
-console.log(runImportada());
+console.log(importada.retornarObjeto())
