@@ -1,12 +1,11 @@
 const object = {
-  running: true,
-};
+  running: true
+}
 
-function objectReturn() {
-  return object;
+function run () {
+  return object
 }
 
 module.exports = {
-  object,
-  objectReturn,
-};
+  run
+}

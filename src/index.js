@@ -1,3 +1,3 @@
-const imported = require("./status");
+const imported = require("./status")
 
-console.log(imported.objectReturn());
+console.log(imported.run())
