@@ -1,12 +1,12 @@
-const objeto = {
+const object = {
   running: true,
 };
 
-function retornarObjeto() {
-  return objeto;
+function objectReturn() {
+  return object;
 }
 
 module.exports = {
-  objeto,
-  retornarObjeto,
+  object,
+  objectReturn,
 };
