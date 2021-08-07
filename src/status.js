@@ -6,6 +6,6 @@ function run () {
   return object
 }
 
-module.exports = {
-  run
-}
+exports.run = function () {
+  return object
+} 
