@@ -19,5 +19,9 @@
   "homepage": "https://github.com/maarvins/order-service#readme",
   "devDependencies": {
     "jest": "^27.0.6"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.17.1"
   }
 }
