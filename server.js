@@ -1,9 +1,14 @@
 const express = require("express")
-const cors = require("cors")
-const app = express()
+//requisição HTTPS de forma nativa
 
-require("./src/Routes/index")(app)
 
-app.use(cors())
-app.use(express.json())
-app.listen(3333)
+const app = express();
+const imported = require("./src/status.js")
+
+app.get("/", function (req, res) {
+  res.send(imported.run())
+})
+
+app.listen(3000, function () {
+  console.log("Server is running on port 3000.")
+})
