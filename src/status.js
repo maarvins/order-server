@@ -2,7 +2,7 @@ const object = {
   running: true
 }
 
-function run () {
+function run() {
   return object
 }
 
