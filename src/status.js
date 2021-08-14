@@ -1,5 +1,5 @@
 const object = {
-  running: true,
+  running: true
 }
 
 function run() {
@@ -7,5 +7,5 @@ function run() {
 }
 
 module.exports = {
-  run,
+  run
 }
