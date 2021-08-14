@@ -2,10 +2,10 @@ const object = {
   running: true
 }
 
-function run () {
+function run() {
   return object
 }
 
-exports.run = function () {
-  return object
-} 
+module.exports = {
+  run
+}
