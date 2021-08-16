@@ -1,3 +1,5 @@
 const imported = require("./status")
 
-console.log(imported.run())
+module.exports = (app) => {
+  console.log(imported.run())
+}
